@@ -25,3 +25,62 @@
         "\n",
         "![alt text](https://media.giphy.com/media/fnQ3DS2bSrOdxNIXOC/giphy.gif)\n",
         "\n",
+        "Before we jump into the lesson itself, let's talk about programming in general. **Programming** is a way to tell your computer how to perform tasks by giving it specific instructions.\n",
+        "\n",
+        "Everything a computer does is by using a computer program, and you may already be familiar with many of these! For example, Instagram, Pokemon Go, Google Maps, Siri, Photoshop, and more are all examples of computer programs.\n",
+        "\n",
+        "![Imgur](https://i.imgur.com/JLDNaFK.jpg)\n",
+        "\n",
+        "Just as humans communicate with different languages, there are also different languages to communicate to computers with. These are called **programming languages**, and there are hundreds of them, each with their own styles and uses.\n",
+        "\n",
+        "For AI, the most popular programming language to use is Python. There are many reasons that people like to use Python, such as:\n",
+        "\n",
+        "*   It's fast and easy to write code\n",
+        "*   Many great open-source **libraries**\n",
+        "*   Active and growing community\n",
+        "\n",
+        "A programming library is a collection of code that someone else has written, that you can then use (so you don't have to reinvent the wheel). Many libraries are private and owned by specific companies, but other libraries are open-source, meaning that they can be freely and publicly used and contributed to. Python has a very large community of people who build and maintain open-source libraries.\n",
+        "\n",
+        "We'll learn more about libraries in Python throughout the summer, and you may frequently see the use of one particular library called **Scikit-Learn**. This library and **TensorFlow** are two of the most popular for programming artificial intelligence.\n",
+        "\n",
+        "As an additional note, programming languages have different version numbers which may affect how they're read and written. (Think of this like the difference between Ancient Greek and Modern Greek, and how a language changes over time.) For this and the following lessons, we will be specifically using **Python 3**.\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Dx2VX_zGT211"
+      },
+      "source": [
+        "## Your First Line of Python\n",
+        "\n",
+        "Now let's jump into some programming!\n",
+        "\n",
+        "Click on the programming block below, and a play button will appear on the left. Click on the play button to run the line of Python code. If you had to guess, what do you think this line of code will do?"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "SIzLXK_4EoS8",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "377d516e-8150-4817-d3e5-74066b69c492"
+      },
+      "source": [
+        "print(\"I'm here! I'm coding!\")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I'm here! I'm coding!\n"
+          ]
+        }
+      ]
+    },
+    {
