@@ -115,3 +115,50 @@
       "cell_type": "markdown",
       "metadata": {
         "id": "nAtVLq5GRUpi"
+      },
+      "source": [
+        "\n",
+        "\n",
+        "---\n",
+        "\n",
+        "You can write new Python code in any of the code blocks within this Notebook. When you want to run the code that you've written, make sure you have the code block selected, and hit the Play button on the left side of the block.\n",
+        "\n",
+        "If you want to delete a code block, select it, and then click on the three dots on the right side of the block to show the \"Delete Cell\" option.\n",
+        "\n",
+        "Python code persists between code blocks within this Notebook. That means that if you write some code in one code block, it can affect future code blocks. When we talk about variables next, this means that if you declare a variable in one code block, you can still call it in a different code block afterwards.\n",
+        "\n",
+        "As you work more in Google Colabs over this program, you may use other functions, such as adding text blocks, rearranging cells, and maybe even learning some **Markdown**, which is a language used to help style text blocks.\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "A145dPi1FUiI"
+      },
+      "source": [
+        "## Your Very First Variable (at AI4ALL)\n",
+        "\n",
+        "In programming, we use a concept called a **variable** that's similar to what you have learned in math. Let's give it a try:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "eMqLmoGwz023"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Z8FlcLOPFxJe"
+      },
+      "source": [
+        "x = 100"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
