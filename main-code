@@ -1,1 +1,27 @@
-
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "bd59jn7NFC9Y"
+      },
+      "source": [
+        "# Introduction to Python (Pt. 1)\n",
+        "\n",
+        "Welcome to the exciting world of Python!\n",
+        "\n",
+        "For many of you, this may be your very first time programming, and these lessons are designed to help you go from your very first steps with reading code all the way to writing code for the hands-on projects this summer. You got this!\n",
+        "\n",
+        "![alt text](https://media.giphy.com/media/fnQ3DS2bSrOdxNIXOC/giphy.gif)\n",
+        "\n",
