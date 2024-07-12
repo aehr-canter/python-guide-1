@@ -84,3 +84,34 @@
       ]
     },
     {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "X-XaIznyFQ6s"
+      },
+      "source": [
+        "Congratulations! You've just run your very first line of code at the AI4ALL program.\n",
+        "\n",
+        "![alt text](https://media.giphy.com/media/ely3apij36BJhoZ234/giphy.gif)\n",
+        "\n",
+        "Before we dig deeper into Python, let's get to know about the coding environment that we're using.\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "aizuciOFSRZ0"
+      },
+      "source": [
+        "## Intro to Jupyter Notebooks and Google Colabs\n",
+        "\n",
+        "Typically, to run Python code, you have to run it on your computer, using either the command line or a specific type of program called an IDE (integrated development environment).\n",
+        "\n",
+        "Instead, right now we're using a tool called **Jupyter Notebooks**, which in the past few years has been extremely popular in the data science and artificial intelligence communities to write and run code. In addition, Google has created a software called **Colaboratory** (Colabs for short), which allows us to run our Notebooks in Google Drive, just like with Google Docs or Google Sheets.\n",
+        "\n",
+        "**Let's try out Google Colabs by adding a _code block_ under this text. Click this text, and then on the top left of the web page, click the \"+ Code\" button.**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "nAtVLq5GRUpi"
