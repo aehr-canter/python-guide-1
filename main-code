@@ -416,3 +416,55 @@
         },
         "outputId": "b018a0ba-88d9-4b10-cc87-ec7eefdfc432"
       },
+      "source": [
+        "some_string = \"This type of data is called a string!\"\n",
+        "some_string_2 = 'This is also a string; notice we can use both quote marks and apostrophes'\n",
+        "\n",
+        "# We can also assign numbers with decimal points to our variables\n",
+        "some_number = 13.45\n",
+        "\n",
+        "# Another type of variable is called a boolean, which only holds the value of True or False\n",
+        "# We'll talk more about these as we get to conditionals, in a later section\n",
+        "some_bool = True # True, False\n",
+        "\n",
+        "print(\"Practice adding some print statements below to print the other variables!\")\n",
+        "print(some_string)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Practice adding some print statements below to print the other variables!\n",
+            "This type of data is called a string!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "9.0 // 2"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XPxPETy41V0W",
+        "outputId": "e897ccdf-e313-4471-ac54-8054a3e44b3d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "4.5"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 18
+        }
+      ]
+    },
