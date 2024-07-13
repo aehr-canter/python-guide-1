@@ -251,3 +251,46 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "fLAAGvkuWLjW"
+      },
+      "source": [
+        "If we have multiple print commands in a row, they will print each on a separate line by default."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "dIX2pxeOWSU4",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "6100a5fd-99e6-47cc-e50f-f92acd3640ac"
+      },
+      "source": [
+        "print(\"Hello there!\")\n",
+        "print(\"This message will show up to the user.\")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello there!\n",
+            "This message will show up to the user.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "BVY7e1QGWa4x"
+      },
+      "source": [
+        "One thing that you will find useful is to be able to print out a message but also include the value of a variable in that message. For example:"
+      ]
+    },
