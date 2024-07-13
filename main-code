@@ -136,6 +136,95 @@
       "metadata": {
         "id": "A145dPi1FUiI"
       },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "5zKC-Rb2TsRm"
+      },
+      "source": [
+        "When you run the cell above, you've **initialized** (created) a variable named `x` that you have **assigned** the value of 100.\n",
+        "\n",
+        "The next time you refer to `x` in your code, it will remember that it has been assigned 100.\n",
+        "\n",
+        "Variables are extremely useful in programming, and we'll see lots and lots of them moving forward!"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "EhVneCRuF-qw"
+      },
+      "source": [
+        "## Printing\n",
+        "\n",
+        "When we run a Python program, the user will only see what we decide to print to the screen.\n",
+        "\n",
+        "Notice that when we set `x = 100` earlier, nothing was printed back out. How can we make sure that the value we assign to a variable is correct? We can print it!"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "SGboEhmDGLkQ",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "ca76d552-d493-41ba-d384-a53924602b16"
+      },
+      "source": [
+        "y = 200\n",
+        "print(y)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "200\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "agl-HIjaUch0"
+      },
+      "source": [
+        "Try it out yourself! Add a line to the following code block to print the value of `z`."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "CZzE--8kUgMI",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "8f38178d-c424-4d7c-804b-98357abe7306"
+      },
+      "source": [
+        "z = 1300\n",
+        "# Add your line of code here & don't forget to hit Run when you're done!\n",
+        "print(1300)\n",
+        "\n",
+        "# By the way, when you add a hashtag to the front of your line, this tells\n",
+        "# the coding environment to treat that line as a comment, so that you can\n",
+        "# type out helpful notes for yourself. Great programmers leave comments on\n",
+        "# their code to communicate information with other programmers!"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1300\n"
+          ]
+        }
+      ]
+    },
       "source": [
         "## Your Very First Variable (at AI4ALL)\n",
         "\n",
