@@ -468,3 +468,38 @@
         }
       ]
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Qlk179SBGShj"
+      },
+      "source": [
+        "## Variable Naming Rules\n",
+        "\n",
+        "Variables are case-sensitive. That means a variable named `thing` and one named `Thing` are different! Let's see why this matters by running the following code:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Ii_G-7RhVYqN",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "96a3d8f4-ccc1-467e-d633-d1ea652a0552"
+      },
+      "source": [
+        "thing = 5\n",
+        "print(Thing)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5 1\n"
+          ]
+        }
+      ]
+    },
