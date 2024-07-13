@@ -629,3 +629,43 @@
         }
       ]
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "lSJQWGgUXYXV"
+      },
+      "source": [
+        "If you run the above code block, it will raise an error as expected."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "274hJJg-0Xzc",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "outputId": "cfc9ac87-f302-43b3-d0a6-451e693282de"
+      },
+      "source": [
+        "# Initialize your own variable below (give it any valid name) and assign it the value \"Hello!\"\n",
+        "hello = \"Hello!\""
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'Hello!'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 33
+        }
+      ]
+    },
