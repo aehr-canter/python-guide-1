@@ -369,3 +369,50 @@
         "If this line of code is confusing to look at right now, don't worry! We'll cover more Python concepts that will help you understand this line better (especially that `.format(no_flowers)` part) in the coming lessons."
       ]
     },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "OmJzbbHYz30m",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "e7e45cd5-60fb-458e-d7da-9995d3c5eb03"
+      },
+      "source": [
+        "no_books = 100\n",
+        "# Write a print statement below to say \"I own 100 books\", using the variable no_books\n",
+        "print(\"I own {} books\".format(no_books))"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I own 100 books\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "aW9avmXMGIk1"
+      },
+      "source": [
+        "## Data Types\n",
+        "\n",
+        "So far, we've only been assigning integers to our variables, like we see in math. In Python, we can actually assign many more types of data to our variables!\n",
+        "\n",
+        "For example:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "JXHccv5bF0R3",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "b018a0ba-88d9-4b10-cc87-ec7eefdfc432"
+      },
