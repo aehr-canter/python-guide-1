@@ -503,3 +503,40 @@
         }
       ]
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "5MrWMUhlVekt"
+      },
+      "source": [
+        "Oh no! What happens when you run that code block? You'll see a `NameError` pop up, saying that `'Thing' is not defined`. This happens because we initialized a variable named `thing` but not one named `Thing` with the uppercase T.\n",
+        "\n",
+        "As you have seen in earlier examples, variables also can have letters, numbers, and underscores included in them, but with certain restrictions.\n",
+        "\n",
+        "Run the following code blocks to see if they work or if they raise errors:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "FrJUU4k4WFgi"
+      },
+      "source": [
+        "thing_2 = 5"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "bj-VX0k8WRmd",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "outputId": "99bb10ce-7f22-43b1-a02e-6c7992fd37a7"
+      },
+      "source": [
+        "thing-2 = 5"
+      ],
