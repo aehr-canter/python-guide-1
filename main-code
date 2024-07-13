@@ -294,3 +294,78 @@
         "One thing that you will find useful is to be able to print out a message but also include the value of a variable in that message. For example:"
       ]
     },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "6TqMtz5fWsL-",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "3abd61a4-79be-4a02-d843-e956e6366586"
+      },
+      "source": [
+        "no_flowers = 5\n",
+        "print(\"I have\", no_flowers, \"flowers.\")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I have 5 flowers.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "rYzhW61_W7-p"
+      },
+      "source": [
+        "Notice that spaces were added between \"have\", \"5\", and \"flowers\" when we used the commas.\n",
+        "\n",
+        "In Python, there are many, many ways to format your print statements, and different programmers have different preferences for how they like to work with printing.\n",
+        "\n",
+        "One advanced way to format your print statements is as follows:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "J9qnv9eDXR7L",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "ea5b27da-4d75-4164-cd3d-faa4c61116de"
+      },
+      "source": [
+        "no_flowers = 5\n",
+        "x = \"pretty\"\n",
+        "print(\"I have {} {} {} flowers.\".format(no_flowers, \"xxx\", \"xyy\"))\n",
+        "print(f\"I have {no_flowers} {x} flowers\")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I have 5 xxx xyy flowers.\n",
+            "I have 5 pretty flowers\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "K2u4DoJ9XddC"
+      },
+      "source": [
+        "In the method above, the curly braces, `{}`, are used to tell Python to expect a variable there. We then specify what variable to expect by adding `.format(no_flowers)` after the message we are printing.\n",
+        "\n",
+        "If this line of code is confusing to look at right now, don't worry! We'll cover more Python concepts that will help you understand this line better (especially that `.format(no_flowers)` part) in the coming lessons."
+      ]
+    },
