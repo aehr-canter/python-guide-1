@@ -707,3 +707,38 @@
         }
       ]
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "m1XLpRkT1ACS"
+      },
+      "source": [
+        "When we run the code above, we can print out the result of multiplying 35 and 67. But what if we need to keep this answer for future calculations? We can save it as a variable and re-use it!"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "WXQ-xXAJF6QT",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "e6b567c8-a7b5-4abf-b412-06e6ab7cb632"
+      },
+      "source": [
+        "a = 35 * 60\n",
+        "b = 4\n",
+        "c = a * b\n",
+        "print(c)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "8400\n"
+          ]
+        }
+      ]
+    },
