@@ -798,3 +798,41 @@
         }
       ]
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ieXkjVSP18iY"
+      },
+      "source": [
+        "Additionally, one math operation you might not have seen before is called **modulo** and is quite useful when programming. What modulo does is it returns the remainder after you divide.\n",
+        "\n",
+        "For example:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "3ndlIJZY2HzW"
+      },
+      "source": [
+        "modulo = 35 % 2\n",
+        "print(modulo)\n",
+        "\n",
+        "# When you divide 35 by 2, you get 17 with a remainder of 1\n",
+        "# The modulo (%) operator will return that 1"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "tCGj0nGC2YF4"
+      },
+      "source": [
+        "# What will the following return?\n",
+        "mod = 44 % 10\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
