@@ -669,3 +669,41 @@
         }
       ]
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "cl4H_EeSGTw9"
+      },
+      "source": [
+        "## Math in Python\n",
+        "\n",
+        "Python also makes it _very_ easy to do math without calculating it ourselves. In artificial intelligence work, we often deal with very complex equations and numbers, sometimes even dealing with billions of numbers at once, and it can be nearly impossible to compute by hand! This is where programming really helps us out, so that we're not left feeling like:\n",
+        "\n",
+        "![alt text](https://media.giphy.com/media/8lPSqcjcNjymIOS4Pm/giphy.gif)\n",
+        "\n",
+        "For example, if someone asks us to multiply 35 and 67, we could type it right into Python:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "5b6juVn90xbc",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "5a8b7b18-7268-4b48-a3ff-ad0268b11d33"
+      },
+      "source": [
+        "print(35*67)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2345\n"
+          ]
+        }
+      ]
+    },
