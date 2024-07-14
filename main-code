@@ -627,6 +627,62 @@
             "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-30-597287a2d762>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    for = 10\u001b[0m\n\u001b[0m        ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
           ]
         }
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "qImtIYnqGh74"
+      },
+      "source": [
+        "### Math Operators\n",
+        "\n",
+        "So what mathematical operations can we do in Python, and how do we do them? Some examples below:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "pSMipR2J1b8H",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "2ea29ed9-c4ad-4aa5-c36b-39db361c5955"
+      },
+      "source": [
+        "addition = 3 + 5\n",
+        "subtraction = 10 - 2\n",
+        "multiplication = 4 * 9\n",
+        "division = 121 / 11\n",
+        "division_2 = 121 // 11\n",
+        "exponentiation = 3 ** 2\n",
+        "\n",
+        "# addition\n",
+        "# subtraction\n",
+        "\n",
+        "# print(str(addition) + \"\\n\" + str(subtraction))\n",
+        "print(f\"{addition}\\n{subtraction}\")\n",
+        "# print(subtraction)\n",
+        "# print(multiplication)\n",
+        "# print(division)\n",
+        "# print(division_2)\n",
+        "# print(exponentiation)\n",
+        "\n",
+        "# Notice that if we run this cell block, there is no output (so we can't check our results)\n",
+        "# Add a print statement so you can check the calculations are as expected!\n"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "8\n",
+            "8\n",
+            "8\n",
+            "8\n"
+          ]
+        }
+      ]
+    },
       ]
     },
     {
