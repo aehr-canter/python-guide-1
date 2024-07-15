@@ -836,3 +836,46 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "CeJcYlEQ2zB6"
+      },
+      "source": [
+        "### Order of Operations and Parentheses\n",
+        "\n",
+        "Order of operations are respected in Python, and you can use parentheses as expected."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "JYzFKAQy266e"
+      },
+      "source": [
+        "some_number = (47 + 3) * 2 / 10\n",
+        "print(some_number)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "WIB9q_WU3FU8"
+      },
+      "source": [
+        "You cannot, however, do implicit multiplication with parentheses. If you run the code below, it will return an error:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "1LbbzbKF3Klf"
+      },
+      "source": [
+        "some_number_2 = 2 (5 + 5)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
