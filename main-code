@@ -879,3 +879,28 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "yjv3mJ9Z3dWS"
+      },
+      "source": [
+        "### An Arithmetic Shortcut\n",
+        "\n",
+        "So far, we've only been initializing new variables. Variables in Python, unlike in math, can be updated to hold new values. For example:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "34BCUaoC3r6N"
+      },
+      "source": [
+        "a = 10\n",
+        "print(a)\n",
+        "a = 20\n",
+        "print(a)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
