@@ -1049,3 +1049,25 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "k4HhhrgI7r0a"
+      },
+      "source": [
+        "Notice that in the code block above, the print statement only happens for certain numbers that are input. We happen to use the comparison operator `>` to compare `num` and `5` in this particular case. All of the comparison operators are as follows:\n",
+        "\n",
+        "\n",
+        "* `==` to check for equality\n",
+        "* `!=` to check for inequality\n",
+        "* `>` greater than\n",
+        "*   `<` less than\n",
+        "*   `>=` greater than or equal to\n",
+        "* `<=` less than or equal to\n",
+        "\n",
+        "It's particularly important to note that if you are checking if something is equal, you must use `==` and not just a single `=`, because a single `=` in Python is interpretted as assigning a value to a variable.\n",
+        "\n",
+        "We'll put this to use in the code block below. Don't be afraid to ask for help!\n",
+        "\n"
+      ]
+    },
