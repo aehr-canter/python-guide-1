@@ -1001,3 +1001,51 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "zhpJRcuS6Q4F"
+      },
+      "source": [
+        "In fact, a very early version of AI (that wasn't _really_ AI) called ELIZA mainly just took user input and returned it in a way that tried to mimic how a psychologist might communicate with you:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "t7VRUaHi6h0y"
+      },
+      "source": [
+        "topic = input(\"What topic is on your mind? \")\n",
+        "print(\"And how does\", topic, \"make you feel?\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "b7iSRfpWQCmP"
+      },
+      "source": [
+        "## If Statements (Conditionals)\n",
+        "\n",
+        "How can we change how the program acts based on input from the user? We can make use of a concept called **conditionals**, which come from the idea that for certain _conditions_, you do certain actions.\n",
+        "\n",
+        "What do you think this following line of code does? Once you have a guess, give it a run a few times, with different inputs:\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "_eY16gH65Z7X"
+      },
+      "source": [
+        "num = int(input(\"Input a number from 1 to 10: \"))\n",
+        "\n",
+        "if num > 5:\n",
+        "  print(\"This was a good number!\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
