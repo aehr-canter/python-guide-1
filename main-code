@@ -954,3 +954,50 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "TFEzqNKE5a7s"
+      },
+      "source": [
+        "## User Input\n",
+        "\n",
+        "Up until now, we've worked on printing, creating variables, and doing some math. All of that is useful, but what makes many programs interesting and valuable are that they can take in user input and change how they run.\n",
+        "\n",
+        "To get user input, we do the following:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "H6dLOIUc5x0S"
+      },
+      "source": [
+        "input(\"Type something and hit enter! \")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "YbQWIK6t56L3"
+      },
+      "source": [
+        "We've gotten user input, but how do we remember it and use it in the future?\n",
+        "\n",
+        "As always, let's store it as a variable."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "XJXEMyDn6EFb"
+      },
+      "source": [
+        "answer = input(\"Tell me something: \")\n",
+        "print(\"You said:\", answer)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
