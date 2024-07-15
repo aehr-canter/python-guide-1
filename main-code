@@ -904,3 +904,53 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "2v7QdEfq3wSE"
+      },
+      "source": [
+        "On the third line in the code block above, `a` is reassigned the value of 20.\n",
+        "\n",
+        "What if we wanted to add 10 to the value of `a`? There is an arithmetic shortcut we can use:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "WZCsT3Xd37N2"
+      },
+      "source": [
+        "a = 20\n",
+        "a += 10\n",
+        "print(a)\n",
+        "# What do you expect this to print?"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "z6wdIPsK4B4z"
+      },
+      "source": [
+        "A longer example, with other operations. What do you think the final value should be? Try to calculate it yourself before adding a print command to test your answer:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "6cTxAUwG4KBd"
+      },
+      "source": [
+        "unknown = 5\n",
+        "unknown += 5\n",
+        "unknown -= 2\n",
+        "unknown *= 8\n",
+        "unknown /= 4\n",
+        "unknown %= 3\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
