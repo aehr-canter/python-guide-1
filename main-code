@@ -1071,3 +1071,45 @@
         "\n"
       ]
     },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "ImWSfqzt9CS7"
+      },
+      "source": [
+        "num = int(input(\"Input a number from 1 to 10: \"))\n",
+        "\n",
+        "# Let's give it a try! Finish the following line so that \"You got it!\" only prints when num equals 3\n",
+        "if\n",
+        "  print(\"You got it!\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Gw6Q51KP9pnx"
+      },
+      "source": [
+        "What if we wanted to print a different message if they got the number wrong? It would take a lot of time to write a condition for every single other option, so instead we can make use of a different piece of code:\n",
+        "\n",
+        "(Spoilers for the previous code block, so be sure to have finished that before looking at the following.)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "rwKvZoVc94tO"
+      },
+      "source": [
+        "num = int(input(\"Input a number from 1 to 10: \"))\n",
+        "\n",
+        "if num == 5:\n",
+        "  print(\"You got it!\")\n",
+        "else:\n",
+        "  print(\"Try again!\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
