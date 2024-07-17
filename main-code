@@ -1255,3 +1255,56 @@
         "![alt text](https://media.giphy.com/media/MJ4Qi9dSACpLG/giphy.gif)"
       ]
     },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "WUeq84uACcXv"
+      },
+      "source": [
+        "# The following is a list in Python:\n",
+        "things_to_do = [\"water plants\", \"take out trash\", \"mow law\", \"prepare dinner\"]"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "YKWBRIoeC2EA"
+      },
+      "source": [
+        "We use the square brackets `[]` to show that we're using a list in Python. Lists can be a mixture of different data types, like:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "zT5HBPDtDAi6"
+      },
+      "source": [
+        "some_random_list = [5, \"something\", True, 4.5, \"okay\"]\n",
+        "\n",
+        "# To test if something is in a list, we use the operator 'in'\n",
+        "\n",
+        "if 5 in some_random_list:\n",
+        "  print(\"The number 5 is in this list!\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "oyjb9WpgDb9z"
+      },
+      "source": [
+        "# Fill in the list below so that the conditional will be true!\n",
+        "your_list = [ ]\n",
+        "x = 42\n",
+        "\n",
+        "if x in your_list:\n",
+        "  print(\"The value of x was found in your list.\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
