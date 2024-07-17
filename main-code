@@ -1308,3 +1308,49 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "4agTX3VRJ203"
+      },
+      "source": [
+        "### Indexing into a list\n",
+        "\n",
+        "What if we wanted to get a specific **element** of a list? We can do the following:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "wZwBL9fTKN-g"
+      },
+      "source": [
+        "some_list = ['a', 'b', 'c']\n",
+        "print(some_list[1])\n",
+        "\n",
+        "# What do you expect this to print?"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "rYah0sMUKSww"
+      },
+      "source": [
+        "In Python, we actually start counting from 0, not 1. So the \"first\" element of the list would be `some_list[0]`. The number that we use is called the **index** of the element. (So element `a` would have the index of 0.)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "zM6ZxKl5Kdwe"
+      },
+      "source": [
+        "# Print the 'e' from the list using indexing\n",
+        "random_list = [3, 5, 'blob', 'e']"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
