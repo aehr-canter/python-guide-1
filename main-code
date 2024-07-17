@@ -1113,3 +1113,54 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "owQaUNuH-NyG"
+      },
+      "source": [
+        "We can also include some math in our if statement, to help check for specific conditions. For example, a very popular use of the modulo operator is to check if a number is even or odd, and we can combine this with an if statement:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "iaTdt45N-kZC"
+      },
+      "source": [
+        "num = int(input(\"Input a number from 1 to 100: \"))\n",
+        "\n",
+        "if num % 2 == 0:\n",
+        "  print(\"You inputted an even number.\")\n",
+        "else:\n",
+        "  print(\"You inputted an odd number.\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Hw0xFruG-wr5"
+      },
+      "source": [
+        "So how does this work?\n",
+        "\n",
+        "Because modulo returns the remainder after dividing by 2, we know that all even numbers will have a remainder of 0 and all odd numbers will have a remainder of 1. Our if-statement checks to see that if after `num % 2` you get the result of 0, you know that `num` is an even number.\n",
+        "\n",
+        "There are many more uses of if-statements, and we'll see that this is one of the most useful fundamental concepts in programming that helps us create meaningful programs."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "4_VBcdGR_26X"
+      },
+      "source": [
+        "### A Note on Indenting\n",
+        "\n",
+        "You may have noticed in all of the code examples above that there is a single indent for the line that comes after the if-statement condition. Why might that be?\n",
+        "\n",
+        "Try running the following code to see what happens:"
+      ]
+    },
