@@ -1208,3 +1208,50 @@
       "metadata": {
         "id": "2ktpJ4NPAWG2"
       },
+      "source": [
+        "What do you notice is the difference between the two code blocks?"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "PmMDVxleAd1R"
+      },
+      "source": [
+        "We use indenting to tell Python which block of code should be run as part of the conditional, and which part comes after the conditional.\n",
+        "\n",
+        "Not all programming languages use indentation for this -- for example, a different programming language called JavaScript uses the curly braces `{}` to tell the computer that everything inside the curly braces should be run if the condition is true, and everything afterwards will be run regardless of the conditional."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "H5URZNxgBDgx"
+      },
+      "source": [
+        "# One more example just to be clear!\n",
+        "y = 100\n",
+        "\n",
+        "# Do you remember what this following comparison operator does?\n",
+        "if y != 100:\n",
+        "  print(\"Will this line print?\")\n",
+        "  print(\"How about this line?\")\n",
+        "  print(\"Let's add one more line just in case.\")\n",
+        "print(\"Now will it print?\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "sSht1HzSQJdn"
+      },
+      "source": [
+        "# Lists\n",
+        "\n",
+        "There are many ways in Python where we can store many different things in one single variable. Just like in the real world, we often want to be able to make lists in Python. Imagine these like to-do lists, shopping lists, or lists to keep track of a set of similar things.\n",
+        "\n",
+        "![alt text](https://media.giphy.com/media/MJ4Qi9dSACpLG/giphy.gif)"
+      ]
+    },
