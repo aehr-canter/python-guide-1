@@ -1164,3 +1164,47 @@
         "Try running the following code to see what happens:"
       ]
     },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "ARmPnYh3AGc-"
+      },
+      "source": [
+        "x = 5\n",
+        "\n",
+        "if x < 2:\n",
+        "  print(\"Well, we know this will not print...\")\n",
+        "  print(\"But what about this?\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ZJGrCiGQAO6z"
+      },
+      "source": [
+        "Compare it with the following:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "zvroZsG_AQSN"
+      },
+      "source": [
+        "x = 5\n",
+        "\n",
+        "if x < 2:\n",
+        "  print(\"Well, we know this will not print...\")\n",
+        "print(\"But what about this?\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "2ktpJ4NPAWG2"
+      },
