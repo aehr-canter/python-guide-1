@@ -1405,3 +1405,26 @@
         "One particular type of loop is the for loop. It has many uses, such as with lists:"
       ]
     },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "azpbfV1ZF1Pz"
+      },
+      "source": [
+        "things_to_do = [\"water plants\", \"take out trash\", \"mow law\", \"prepare dinner\"]\n",
+        "\n",
+        "for task in things_to_do:\n",
+        "  print(\"Now doing:\", task)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "jIDdokoOGAl6"
+      },
+      "source": [
+        "Notice that in order to print out each element of the list one-by-one, we need to use a for loop. We cannot do the following:"
+      ]
+    },
