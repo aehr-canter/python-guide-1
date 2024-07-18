@@ -1428,3 +1428,44 @@
         "Notice that in order to print out each element of the list one-by-one, we need to use a for loop. We cannot do the following:"
       ]
     },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "ZTsl1w5SGGuN"
+      },
+      "source": [
+        "# This would just print the entire list at once\n",
+        "things_to_do = [\"water plants\", \"take out trash\", \"mow law\", \"prepare dinner\"]\n",
+        "print(things_to_do)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "u53rfwj6GPKf"
+      },
+      "source": [
+        "Say we want to loop through a list of numbers and count how many times we see an even number. We could do that by combining for loops and if statements:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "_wj_WJcbGOpX"
+      },
+      "source": [
+        "list_of_no = [1,2,99,24,45,76]\n",
+        "\n",
+        "count = 0\n",
+        "\n",
+        "for number in list_of_no:\n",
+        "  if number % 2 == 0:\n",
+        "    count += 1\n",
+        "\n",
+        "print(count)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
