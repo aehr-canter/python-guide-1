@@ -1354,3 +1354,54 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "IDNz636mQKJq"
+      },
+      "source": [
+        "## Loops\n",
+        "\n",
+        "Sometimes we want to repeat the same operation many times. For example, say we wanted to print all of the multiples of 7 up to 100. How could we do this?\n",
+        "\n",
+        "One way is to manually calculate all of the multiples and write `print(7)`, then `print(14)`, and continue until we've printed all of them out. But this takes lots of time to calculate and type out, and we're likely to make errors in this way.\n",
+        "\n",
+        "Instead, we can use something called a while loop:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "mQUIZgfoEVyA"
+      },
+      "source": [
+        "num = 7\n",
+        "while num < 100:\n",
+        "  print(num)\n",
+        "  num += 7"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "T7jnj-BhE8dX"
+      },
+      "source": [
+        "On line 2 in the code above, we check to see if the variable `num` is less than 100. If it is, we will run the two indented lines of code, which print `num` and also increase it by 7. This will continue until `num` is greater than 100, and stop repeating, which we see from running the code.\n",
+        "\n",
+        "Loops are a very useful way to repeat the same task over and over, often with just a small thing changed on each **iteration**, which is what we call one cycle of the loop. If you feel like you're doing a lot of copying and pasting of code, this is often a sign that you can potentially replace things with a loop."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "rnRBRs2fFtWC"
+      },
+      "source": [
+        "### For Loops\n",
+        "\n",
+        "One particular type of loop is the for loop. It has many uses, such as with lists:"
+      ]
+    },
