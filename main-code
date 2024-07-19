@@ -1609,3 +1609,41 @@
       "metadata": {
         "id": "lvYdmKAXK_cP"
       },
+      "source": [
+        "## Exercise\n",
+        "\n",
+        "![alt text](https://media.giphy.com/media/9GimADqtnpAPe/giphy.gif)\n",
+        "\n",
+        "Let's try to put a few of the things that we've learned to the test!\n",
+        "\n",
+        "In this exercise, write a program that counts from 1 to 100, but will only print the word \"Fizz\" on every multiple of three, along with the number itself. For example, the start of your output should look like:\n",
+        "\n",
+        "> Fizz 3\n",
+        "\n",
+        "> Fizz 6\n",
+        "\n",
+        "> Fizz 9\n",
+        "\n",
+        "> Fizz 12\n",
+        "\n",
+        "> ...\n",
+        "\n",
+        "There are many ways to accomplish this exercise with what we have learned!"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Vy8PhrbXMIX6"
+      },
+      "source": [
+        "# Write your code here"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "u1aoFYtBMLsW"
+      },
