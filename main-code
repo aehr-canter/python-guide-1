@@ -1506,3 +1506,37 @@
       "metadata": {
         "id": "sUi3K9q9H7TZ"
       },
+      "source": [
+        "**What is the first number that's printed?**\n",
+        "\n",
+        "0! Remember that in Python, we typically start counting from 0, not 1.\n",
+        "\n",
+        "**What is the final number that's printed?**\n",
+        "\n",
+        "You'll notice that the number we specify in `range()` is the number we count _up to_, but don't actually get to.\n",
+        "\n",
+        "**How can we correct this to print the numbers 1 to 100 instead of 0 to 99?**"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "7Psf3t8aIW5d"
+      },
+      "source": [
+        "# One approach:\n",
+        "for number in range(1000):\n",
+        "  print(number + 1)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "r-tZ57aoIeSM"
+      },
+      "source": [
+        "Often we'll find multiple ways to do the same thing in Python."
+      ]
+    },
