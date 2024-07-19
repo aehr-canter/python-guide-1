@@ -1571,3 +1571,41 @@
         "Notice that in the for loop, we mention the variable `number`, but never initialize it beforehand. Typically you'd expect this to return an error, like you see below:"
       ]
     },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "PMIif1WEI5sj"
+      },
+      "source": [
+        "# An example of a variable we've never initialized before being used\n",
+        "print(some_random_new_variable)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ZblZ4V6dJAPp"
+      },
+      "source": [
+        "However, in the first line of a for loop, Python understands that we are using a placeholder variable that is updated each time the for loop runs. In the following example, `num` is a placeholder variable that's assigned the value 2 the first time the for loop runs, and incremented by 1 each time the loop repeats:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Gs4rV2quJc7M"
+      },
+      "source": [
+        "for num in range(2, 10):\n",
+        "  print(num)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "lvYdmKAXK_cP"
+      },
