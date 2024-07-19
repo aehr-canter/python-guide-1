@@ -1540,3 +1540,34 @@
         "Often we'll find multiple ways to do the same thing in Python."
       ]
     },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Q91Y5tghIiZF"
+      },
+      "source": [
+        "# Another approach:\n",
+        "for number in range(1, 101):\n",
+        "  print(number)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "jUD_tPfNInVY"
+      },
+      "source": [
+        "Both are valid approaches that have pros and cons."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "BpDOerE7IufB"
+      },
+      "source": [
+        "Notice that in the for loop, we mention the variable `number`, but never initialize it beforehand. Typically you'd expect this to return an error, like you see below:"
+      ]
+    },
