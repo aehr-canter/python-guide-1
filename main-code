@@ -1,6 +1,4 @@
-export LC_ALL=en_US.UTF-8
-export LANG=en_US.UTF-8
-
+@@ -0,0 +1,1728 @@
 {
   "nbformat": 4,
   "nbformat_minor": 0,
