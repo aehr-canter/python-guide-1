@@ -1469,3 +1469,40 @@
       "execution_count": null,
       "outputs": []
     },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "GZXRxYgjG8lm"
+      },
+      "source": [
+        "Take your time to read the code example above. We've combined many of the different things that we've learned in the lesson so far to accomplish this task. Try to read through each line of code to understand what it does, especially within the for loop. Notice that the if-statement condition is indented once, and the `count += 1` line is indented twice."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "TmR8AMRuQLiB"
+      },
+      "source": [
+        "## Ranged For Loop\n",
+        "\n",
+        "In addition to using a for loop with a list, we can use a for loop with a range of numbers. Say we wanted to count up from 1 to 100 and print each number:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "-_phUnfIH3IH"
+      },
+      "source": [
+        "for number in range(100):\n",
+        "  print(number)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "sUi3K9q9H7TZ"
+      },
